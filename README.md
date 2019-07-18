@@ -1,0 +1,2 @@
+# stm32f4_modbus_tcp_prj
+ 基于stm32f4的modbus tcp上下位机通信项目，上位机由LabVIEW编写
