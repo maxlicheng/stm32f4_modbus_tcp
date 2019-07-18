@@ -2,7 +2,7 @@
  基于stm32f4的modbus tcp上下位机通信项目
 
 ## 功能介绍
-- 移植freemodbus到stm32，实现上下位机modbus通信的项目
+- 移植freemodbus到stm32，实现上下位机modbus通信
 - 1.线圈：led控制
 - 2.离散量：按键值读取
 - 3.保持寄存器：ADC
