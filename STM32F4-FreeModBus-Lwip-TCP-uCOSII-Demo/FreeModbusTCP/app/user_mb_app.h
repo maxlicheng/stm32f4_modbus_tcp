@@ -20,7 +20,7 @@
 //**02功能码 
 //**02 Read Discrete Inputs (1x)
 //************************************************************************//
-#define S_DISCRETE_INPUT_START        10000     //开关寄存器起始地址
+#define S_DISCRETE_INPUT_START        100       //开关寄存器起始地址
 #define S_DISCRETE_INPUT_NDISCRETES   16        //开关寄存器数量
 
 //************************************************************************//
@@ -36,7 +36,7 @@
 //**04功能码 (3x)
 //**04 Read Input Registers
 //************************************************************************//
-#define S_REG_INPUT_START             30000     //输入寄存器起始地址
+#define S_REG_INPUT_START             300       //输入寄存器起始地址
 #define S_REG_INPUT_NREGS             100       //输入寄存器数量
 
 //************************************************************************//
@@ -45,7 +45,7 @@
 //**06 Write Single Registers
 //**16 Write Multiple Registers
 //************************************************************************//
-#define S_REG_HOLDING_START           40000     //保持寄存器起始地址
+#define S_REG_HOLDING_START           400       //保持寄存器起始地址
 #define S_REG_HOLDING_NREGS           100       //保持寄存器数量
 
 /* salve mode: holding register's all address */

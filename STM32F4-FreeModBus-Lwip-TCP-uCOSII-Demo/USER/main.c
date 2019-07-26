@@ -191,7 +191,7 @@ void display_task(void *pdata)
 //************************************************************************//
 //**02功能码 
 //**02 Read Discrete Inputs (1x)
-//**起始地址 10000
+//**起始地址 100
 //************************************************************************//
 void key_poll_task(void *pdata)
 {
@@ -210,7 +210,7 @@ void key_poll_task(void *pdata)
 //**01 Read Coils（0x）  
 //**05 Write Single Coil
 //**15 Write Multiple Coils
-//**起始地址 00000
+//**起始地址 000
 //************************************************************************//
 void led_poll_task(void *pdata)
 {
@@ -230,7 +230,7 @@ void led_poll_task(void *pdata)
 //**03 Read Holding Registers(4x)
 //**06 Write Single Registers
 //**16 Write Multiple Registers
-//**起始地址 40000
+//**起始地址 400
 //************************************************************************//
 void eMBPoll_task(void *pdata)
 {
@@ -256,7 +256,7 @@ void eMBPoll_task(void *pdata)
 //************************************************************************//
 //**04功能码 (3x)
 //**04 Read Input Registers
-//**起始地址 30000
+//**起始地址 300
 //************************************************************************//
 void adc_poll_task(void *pdata)
 {
