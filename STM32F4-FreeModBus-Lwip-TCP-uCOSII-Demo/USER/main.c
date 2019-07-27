@@ -275,7 +275,7 @@ void adc_poll_task(void *pdata)
 //**03 Read  Holding Registers(4x)
 //**06 Write Single Registers
 //**16 Write Multiple Registers
-//**起始地址 40000
+//**起始地址 400
 //************************************************************************//
 void dac_poll_task(void *pdata)
 {
